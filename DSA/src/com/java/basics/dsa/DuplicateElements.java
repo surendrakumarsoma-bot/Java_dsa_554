@@ -21,6 +21,18 @@ public class DuplicateElements
 					count++;
 				}
 			}
+			int k;
+			for(k=0;k<i;k++)
+			{
+				if(a[i]==a[k])
+				{
+					break;
+				}
+			}
+			if(k==i && count>1)
+			{
+				System.out.println(a[i]);
+			}
 		}
 		 
 
